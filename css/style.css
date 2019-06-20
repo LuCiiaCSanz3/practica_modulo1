@@ -1,0 +1,317 @@
+
+/* mi paleta de colores:
+-#E8D7F1 lila body
+-#B5E2FA azul titulo grande
+-#EBF8B8 amarillo
+-#EDAFB8 rosa
+-#BAFFDF verde
+*/
+
+
+@font-face {
+    font-family: 'Supernova.ttf';
+    src: url('../assets/Supernova.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GarineldoNo01.otf';
+    src: url('../assets/GarineldoNo01.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LamorDemo.ttf';
+    src: url('../assets/Lamor\ Demo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    line-height: 1;
+    font-family: 'Supernova.ttf';
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    min-height: 100vh;
+    color:#E8D7F1;
+    justify-content: center;
+    background-image: url(../assets/parisdesdeelcielo3.jpg);
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+header{
+    display: block;
+    text-align: center;
+}
+
+.main_header {
+    font-family: 'LamorDemo.ttf';
+    background-image: url(../assets/nubesdeensueño3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: initial;
+    color: #B5E2FA;
+    padding: 0.5rem 0rem 0.5rem 2rem;
+}    
+
+    h1 {
+        font-size: 4.8rem;
+        display: block;
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        color: rgb(146, 255, 255);
+    }
+
+    .main_header p {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: -1rem;
+        margin-bottom: 0;
+        font-family: 'GarineldoNo01.otf';
+        color: rgb(146, 255, 255);
+        
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .main_header nav {
+        margin-left: -1rem;
+    }
+    .main_header nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .main_header nav li {
+        display: inline-block;
+    }
+    .main_header nav a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+        padding: 1rem;
+    }
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-size: 1.8rem;
+    font-family: 'GarineldoNo01.otf';
+    color: rgb(146, 255, 255);
+}
+
+h2 {
+    color: #EDAFB8;
+}
+
+h3 {
+    color: #BAFFDF;
+}
+h4 {
+    color: #EBF8B8;
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1rem;
+    color: rgb(0, 255, 242);
+}
+
+figcaption {
+    color: #EBF8B8;
+}
+
+img {
+    max-width: 100%;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    border-left: 4px solid lightgrey;
+    font-style: italic;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.main_table {
+    width: 100%;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.main_table th {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(74, 153, 196);
+    display: table-cell;
+    text-align: center;
+    border: 1px solid #BAFFDF;
+    color:#BAFFDF;
+    vertical-align: inherit;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.main_table td {
+    padding: 0.5rem 0.5rem;
+    border: 2px solid #BAFFDF;
+    background-color: rgb(74, 153, 196);
+    text-align: center;
+}
+
+caption {
+    color: rgb(218, 153, 250);
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.web_externa {
+    width: 100%;
+    height: 60vh;
+}
+
+.form_control {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(146, 255, 255);
+    padding-top: 0.7rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+    color: black;
+    background-color:  #EDAFB8;
+    font-family: 'Supernova.ttf', cursive;
+}
+
+div {
+    display: block;
+}
+
+.form_label {
+    display: block;
+    margin-top: 1rem;
+    color: rgb(146, 255, 255);
+}
+
+fieldset {
+    margin-bottom: 1rem;
+    border-color: rgb(146, 255, 255);
+}
+
+button {
+    padding: 1px 6px;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+.form_control::placeholder { 
+    opacity: 1; 
+  }
+
+.form_control:-ms-input-placeholder { 
+    color: rgba(166, 15, 172, 0.63);
+  }
+  
+.form_control::-ms-input-placeholder { 
+    color: rgba(166, 15, 172, 0.63);
+  }
+
+footer i {
+    color: aqua;
+}
+.main_section_footer i {
+    /*color:#BAFFDF;*/
+    color:aqua;
+}
+
+.main_section_footer {
+    text-align: right;
+    font-size: 2rem;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+video, embed {
+    max-width: 100%;
+}
+
+video {
+    object-fit: contain;
+}
+
+.main_footer aside li {
+   display: inline-block;
+}
+
+
+.main_footer aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.iframe_footer {
+    width: 100%;
+    height: 20vh;
+    border: 0;
+    background-color: #EDAFB8;
+}
+
+.main_footer {
+    font-family: 'Supernova.ttf';
+    color: aqua;
+    background-color:rgb(218, 153, 250); ; 
+    text-align: center;
+    padding: 1rem;
+    display: block;
+    background-image: url(../assets/nubes\ de\ ensueño\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: initial;
+}
